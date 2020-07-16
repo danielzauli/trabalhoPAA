@@ -23,9 +23,9 @@ public class LaucherActivity extends AppCompatActivity {
         }
         else
         {
-            SharedPreferences.Editor editor=settings.edit();
-            editor.putBoolean("firstRun",true);
-            editor.commit();
+          //  SharedPreferences.Editor editor=settings.edit();
+          //  editor.putBoolean("firstRun",true);
+          //  editor.commit();
             Intent a=new Intent(LaucherActivity.this,MainActivity.class);
             startActivity(a);
             finish();
